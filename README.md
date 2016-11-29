@@ -1,1 +1,1 @@
-# yahoo_test
+# YAHOO Finance API test project
