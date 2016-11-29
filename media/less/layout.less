@@ -2,8 +2,53 @@
  * main system layout
  */
 
+h1 {
+	font-size: 32px;
+	margin-bottom: @indent;
+}
+
 .global-wrap {
 	font-family: Calibri, sans-serif;
 	margin: 0 auto;
 	max-width: @max-width;
+}
+
+.form-add-flot {
+	margin-bottom: @indent;
+}
+
+.flot-wrap {
+	border: 1px solid @gray-light;
+	border-radius: @radius;
+	margin-bottom: @indent;
+	padding: @indent;
+	position: relative;
+}
+
+.flot-spin {
+	background: #fff url(/media/img/spinner.gif) center center no-repeat;
+	bottom: 0;
+	left: 0;
+	opacity: .8;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.flot {
+	height: 500px;
+	margin-bottom: @indent;
+}
+
+.period {
+	margin-right: @indent;
+}
+
+.hidden {
+	display: none;
+}
+
+.text-center {
+	text-align: center;
 }

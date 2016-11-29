@@ -7,21 +7,51 @@
 	<meta name="language" content="ru">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Jeki Jukov">
-	<title>YAHOO Finance API</title>
+	<title>YAHOO Finance API by zer0</title>
 	<link rel="stylesheet" type="text/css" href="/media/css/styles.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="/media/js/scripts.js"></script>
+	<script type="text/javascript" src="/media/js/scripts.min.js"></script>
+	<script type="text/javascript" src="/media/libs/flot/jquery.flot.min.js"></script>
+	<script type="text/javascript" src="/media/libs/flot/jquery.flot.categories.min.js"></script>
+	<script type="text/javascript" src="/media/libs/flot/jquery.flot.time.min.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
 
 <div class="global-wrap">
 
 	<header>
-
+		<h1 class="text-center">Истории котировок акций</h1>
 	</header>
 
 	<main>
-		<h1>Coming soon</h1>
+		<form class="js-form-add-flot form-add-flot">
+			<label for="code">Код акции</label>
+			<select name="code" id="code">
+				<option value="AAPL">APPL</option>
+				<option value="GOOG">GOOGL</option>
+				<option value="YHOO">YHOO</option>
+				<option value="MSFT">MSFT</option>
+			</select>
+			<button type="submit">Добавить</button>
+		</form>
+
+		<div class="js-flots-wrap">
+
+			<div class="js-flot-example flot-wrap text-center hidden">
+				<div class="js-flot-spin flot-spin">
+				</div>
+				<div class="js-flot flot"></div>
+				<label for="flot-period-day">День</label>
+				<input type="radio" name="period" class="js-period period" value="day" id="flot-period-day">
+				<label for="flot-period-month">Месяц</label>
+				<input type="radio" name="period" class="js-period period" value="month" id="flot-period-month">
+				<label for="flot-period-year">Год</label>
+				<input type="radio" name="period" class="js-period period" value="year" id="flot-period-year">
+			</div>
+
+		</div>
+
 	</main>
 
 	<footer>
