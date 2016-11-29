@@ -1,0 +1,111 @@
+{
+  "query": {
+    "count": 20,
+    "created": "2016-11-29T14:12:18Z",
+    "lang": "ru-RU",
+    "results": {
+      "quote": [
+        {
+          "Symbol": "AAPL",
+          "Close": "111.57",
+          "Date": "2016-11-28"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "111.790001",
+          "Date": "2016-11-25"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "111.230003",
+          "Date": "2016-11-23"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "111.800003",
+          "Date": "2016-11-22"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "111.730003",
+          "Date": "2016-11-21"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "110.059998",
+          "Date": "2016-11-18"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "109.949997",
+          "Date": "2016-11-17"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "109.989998",
+          "Date": "2016-11-16"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "107.110001",
+          "Date": "2016-11-15"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "105.709999",
+          "Date": "2016-11-14"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "108.43",
+          "Date": "2016-11-11"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "107.790001",
+          "Date": "2016-11-10"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "110.879997",
+          "Date": "2016-11-09"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "111.059998",
+          "Date": "2016-11-08"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "110.410004",
+          "Date": "2016-11-07"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "108.839996",
+          "Date": "2016-11-04"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "109.830002",
+          "Date": "2016-11-03"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "111.589996",
+          "Date": "2016-11-02"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "111.489998",
+          "Date": "2016-11-01"
+        },
+        {
+          "Symbol": "AAPL",
+          "Close": "113.540001",
+          "Date": "2016-10-31"
+        }
+      ]
+    }
+  }
+}
